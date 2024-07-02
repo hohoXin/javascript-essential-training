@@ -48,3 +48,9 @@ const markup = (backpack) => {
 const main = document.createElement("main");
 main.innerHTML = markup(backpack);
 document.body.appendChild(main);
+
+/*
+error message: 
+script.js:50 
+Uncaught TypeError: Cannot read properties of null (reading 'appendChild')
+*/
